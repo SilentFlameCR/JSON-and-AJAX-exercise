@@ -1,0 +1,46 @@
+h1{
+    width: 40%;
+    float: left;
+}
+
+button{
+    display: inline-block;
+    width: 20%;
+    position: relative;
+    left: 20px;
+    top: 23px;
+    background-color: #006699;
+    color: white;
+    padding: 1% 4%;
+}
+
+button:hover {
+    background-color: aquamarine;
+    color: black;
+    cursor: pointer;
+}
+
+#animal-info {
+    clear: both;
+}
+
+.hide-me {
+    display: none;
+}
+
+p {
+    padding: 5px 0;
+}
+
+p:nth-child(odd) {
+    background-color: whitesmoke;
+}
+
+@media screen and (max-width: 768px){
+    button{
+        width: 40%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        top: 15px;
+    }
+}
